@@ -1,0 +1,7 @@
+"code_id","code","code.description"
+1,"Links","Links to code and data cannot be opened"
+2,"Reproducibility","The analysis is not understandable and not reproducible"
+3,"Figure","Figures cannot be fully understood"
+4,"Data","Data are missing or certain information about data are missing"
+5,"Parameter","Parameters cannot be fully understood or futher information would be helpful"
+6,"License","Licensing information is missing"

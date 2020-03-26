@@ -1,0 +1,68 @@
+﻿Reviews on Supplement? 
+
+
+
+
+1. ESSD by Copernicus 01.01.2019 - 31.01.2019. Search Keyword: “r code”
+
+
+A database of marine and terrestrial radiogenic Nd and Sr isotopes for tracing earth-surface processes https://www.earth-syst-sci-data.net/11/741/2019/essd-11-741-2019-discussion.html
+
+
+* Data available online: http://dataservices.gfz-potsdam.de/panmetaworks/showshort.php?id=escidoc:3493896
+
+
+* Reviewer 2: Major Comments âA˘ c The title of the manuscript, as well as the GFZ data management service at ´ http://doi.org/10.5880/GFZ.5.2.2018.001 (Blanchet 2018c), imply that the author is presenting a global Nd-Sr dataset for marine and terrestrial archives. However, in the text (e.g. Page 3 Line 4 and Line 24) the criteria for the region revealed as Africa, Europe, C1 ESSDD Interactive comment Printer-friendly version Discussion paper Mediterranean, and Atlantic. I highly recommend modifying the title so one can clearly relate to the dataset presented in the manuscript. https://www.earth-syst-sci-data-discuss.net/essd-2018-109/essd-2018-109-RC2.pdf
+---------------------------------------------------------------------------------------------------------------------------
+
+
+Iberia01: a new gridded dataset of daily precipitation and temperatures over Iberia
+https://www.earth-syst-sci-data.net/11/1947/2019/essd-11-1947-2019-discussion.html
+
+
+* Data available online: see PDF document parargraph “Code and data availability”
+
+
+* Reviewer 1: Major Issues: None of the links (p11:4-6) to the data worked for me. The first sent me to a generic landing page in Portuguese. The second sent me to a site where the data was embargoed and required a login account. The third sent an error message. I assume based on the R code that the third access point requires authentication with Santander and requests via a specialized R function. The AEMET link (pg 10) sent me to another landing page where it was unclear how to find the dataset. Either way, I could not access the data. 
+* The authors state that the E-OBS dataset is taken as a benchmark (4:7) but later claim that the dataset is biased for key variables (6:22). It is not clear in the methods how this assessment is made or quantified.
+* Minor issues: Where did the ’orography’ dataset come from? Isn’t this just elevation? The R code (pg 11, line 10) Seems to only calculate and visualize climatologies but doesn’t actually do any direct comparisons.
+https://www.earth-syst-sci-data-discuss.net/essd-2019-95/essd-2019-95-RC1.pdf
+
+
+   * Reviewer 2: Discussion of Figure 2. It is hard to discern the differences. Difference maps would help to illustrate the main differences of interest between the datasets.
+https://www.earth-syst-sci-data-discuss.net/essd-2019-95/essd-2019-95-RC2.pdf
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+Generating a rule-based global gridded tillage dataset
+https://www.earth-syst-sci-data.net/11/823/2019/essd-11-823-2019-discussion.html
+
+
+   * Reviewer 2: Section 5 "Data Availability" needs expanding. Although you provide links to the data repository it would be an improvement to give some details of the structure of the data files. You seem to be using netCDF but it is worthwhile telling the reader the "flavour" of the format: are you using netCDF3, netCDF4 netCDF4 - classic for example. The other point is are these file CF compliant and if so which standard you are working to. It is always useful to the potential user to know what meta data (global attributes) are in the files and if the file naming structure has any useful information embedded in it. It’s also useful to provide the reader with an indication of what variables are in the files etc. The final point is about the user licence and if the data set has a DOI.
+https://www.earth-syst-sci-data-discuss.net/essd-2018-152/essd-2018-152-RC2.pdf
+   * Reviewer 3: I understand that a partial or full verification is not feasible due to the lack of verification data. As the authors mention, the figures/table in S11 can’t be considered as a verification as there is a mismatch in the dates. However, the results do suggest that there can be large errors locally. Also, there is no mention of uncertainties in the input dataset used (point 2.2.). How reliable are the input datasets used and how is this going to influence the output dataset? All this should be more explicitly acknowledged in your discussion, so that users are fully aware of the limitations of the dataset. This is my main criticism which I would like to see addressed.
+https://www.earth-syst-sci-data-discuss.net/essd-2018-152/essd-2018-152-RC3.pdf
+   * Reviewer 4: Particularly, the Authors have used data much different that have required to be resampled and aggregated (Line 220) but no detail has been provided on C1 ESSDD Interactive comment Printer-friendly version Discussion paper how that has been made. Many rules have been used for mapping and downscaling but it is not much clear how the Authors have statistically validate them.
+   * Results and Discussion sections would require to be supported by improved Methods and data section.
+https://www.earth-syst-sci-data-discuss.net/essd-2018-152/essd-2018-152-RC4.pdf
+   * Reviewer 7:  I tried to run R script on my PC; however it did not run because it required some data to run in my environment. Thus, I recommend that sample R script should be provided with sample input dataset and output dataset. Then reader can run R script with the data provided and verify their output against a sample output dataset that can be involved. Otherwise, the reader cannot check whether their results were correctly reproduced or not. 
+   *  In terms of figure 1, I suppose that each box in the figure should correspond to the R script. Thus, it is better to add information (ex. line number) that indicates which part of the R script corresponds to the boxes, and also to show the location in the R script, where different crop-specific tillage systems are evaluated. According to these, readers can easily understand the R script, which is also the authors’ objective.
+https://www.earth-syst-sci-data-discuss.net/essd-2018-152/essd-2018-152-RC7.pdf
+---------------------------------------------------------------------------------------------------------------------------
+
+
+The Arctic Traits Database – a repository of Arctic benthic invertebrate traits
+https://www.earth-syst-sci-data.net/11/301/2019/essd-11-301-2019-discussion.html
+
+
+      * Data available online: see PDF document parargraph “Data availability”
+
+
+      * Reviewer 1: Downloaded skeleton file, largest category so far, very detailed, successful download, data access seems good. But, now that I have it, how would I use it? Find all the calcareous species to estimate their role in benthic carbon cycle? I find almost 900 records, out of 2040 total, impressive. After this initial sort I would need to resolve too-numerous species overlaps / redundancies? E.g. 900 records might really only represent 500 or 600 valid independent species. The database won’t do this taxonomic clarification step automatically? I assume in the database as opposed to the .csv file, I can click through to the exact reference and any text excerpts if I desire? Next, on the carbon question, I would want to know sea floor population density of these calcareous organisms, carbon fixation rates as a function of season, temperature, O2, POC or DOC fluxes, biogeographic distribution including proximity to, for example, riverine inputs or ice fronts or ocean circulation fronts. I might find helpful information under Body Weight, Living Habit, Reproduction, Feeding Habit, Tolerance, and Depth Range. Zoogeographic here would provide zero useful information. But, in general, I would or would not find useful information here? As an alternative, for a species whose carbon uptake rates I knew from literature, I could go to GBIF to learn its frequency of occurrence in Arctic regions of interest and then do some spatial and physiologic extrapolations? How did the Arctic traits database help me or hinder me in this case? A weak example chosen on my part? If so, give us a stronger more-favourable example?
+      * What type of analyses and how to deal with missing trait data are not given, and need to be developed by the user.
+https://www.earth-syst-sci-data-discuss.net/essd-2018-97/essd-2018-97-RC1-supplement.pdf
+      * Reviewer 2: 1. Check the data quality: I find the dataset a good establishment for an ongoing and continues work. Error estimates and sources of errors need to be more clearly expressed when traits-values/categories are missing for, particularly, many Arctic species. Processing of the traiting in the further analyses and presentations need to be elaborated (see notes). 2. Consider article and data set: I find the traiting of species of high quality and this important work is based on much effort. 3. Check the presentation quality: The species information is highly useable for the traits/modules given in the Arctic Trait Database and of high quality. 
+https://www.earth-syst-sci-data-discuss.net/essd-2018-97/essd-2018-97-RC2.pdf
+---------------------------------------------------------------------------------------------------------------------------
